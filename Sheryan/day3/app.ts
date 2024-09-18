@@ -51,3 +51,63 @@
 //////////////////////////// rest parameters /////////////////////////////////
 
 
+// const users=(...arg:number[])=>{
+//     arg.forEach((e)=>{
+//         console.log(e)
+//     })
+// }
+
+
+// users(1,2,3,4,5,6,7,8,9);
+
+
+// ///////////////////////// Generics ///////////////////////////////////////
+
+// function abcd<T>(a:T,b:number){
+    
+// }
+
+
+// abcd<string>("Furqan",234)
+// abcd(1234,54456)
+
+
+
+
+// class CallToTom{
+//     public callTom(){
+//         console.log("Ringing to Tom")
+//     }
+// }
+// class CallToTomi{
+//     public callTomi(){
+//         console.log("Ringing to Tomi")
+//     }
+// }
+
+
+
+
+// function calls(calling:CallToTom | CallToTomi){
+//     if(calling instanceof CallToTom){
+//         calling.callTom();
+//     }else if(calling instanceof CallToTomi){
+//         calling.callTomi();
+//     }else{
+//         throw new Error("No Instance Found")
+//     }
+// }
+
+
+
+// interface Halua<T>{
+//     name:string,
+//     age:number,
+//     key:T
+// }
+
+// function abcd(haula:Halua<string>){
+//     console.log(haula.name)
+// }
+
+// abcd({name:"Furqan",age:67,key:"khjkh"})
